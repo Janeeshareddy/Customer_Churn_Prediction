@@ -37,11 +37,11 @@ Results
 
 Evaluated on the 1,409-row test set:
 
-Model	Accuracy	ROC-AUC	Churn Precision	Churn Recall	Churn F1
-Logistic Regression	0.747	0.800	0.52	0.62	0.57
-Decision Tree	0.720	0.658	0.47	0.52	0.50
-Random Forest	0.769	0.819	0.56	0.58	0.57
-XGBoost	0.770	0.813	0.56	0.59	0.58
+Model	              Accuracy	    ROC-AUC	Churn Precision	Churn Recall	Churn F1
+Logistic Regression	0.747	           0.800	  0.52	           0.62	      0.57
+Decision Tree	      0.720	           0.658	  0.47	           0.52	      0.50
+Random Forest	      0.769	           0.819	  0.56	           0.58	      0.57
+XGBoost	            0.770	           0.813	  0.56	           0.59	      0.58
 
 Takeaways
 
@@ -49,14 +49,14 @@ Random Forest and XGBoost perform almost identically. Random Forest has the best
 Logistic Regression has the highest churn recall, which is useful when catching churners matters most.
 The Decision Tree overfits and is the weakest model.
 Top 10 Features (Random Forest importance)
-Feature	Importance
-TotalCharges	0.191
-tenure	0.175
-MonthlyCharges	0.169
-PaymentMethod_Electronic check	0.039
-InternetService_Fiber optic	0.037
-Contract_Two year	0.030
-OnlineSecurity_Yes	0.030
-gender_Male	0.029
-PaperlessBilling_Yes	0.025
-TechSupport_Yes	0.023
+Feature	                            Importance
+TotalCharges	                        0.191
+tenure	                              0.175
+MonthlyCharges	                      0.169
+PaymentMethod_Electronic check	      0.039
+InternetService_Fiber optic	          0.037
+Contract_Two year	                    0.030
+OnlineSecurity_Yes	                  0.030
+gender_Male	                          0.029
+PaperlessBilling_Yes	                0.025
+TechSupport_Yes	                      0.023
